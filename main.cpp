@@ -83,7 +83,7 @@ void ip_print(const std::vector<std::vector<unsigned>>& ip_pool)
 }
 
 
-int main(int argc, char const* argv[])
+int main()
 {
     try {
 	std::basic_string<char> file_path;
