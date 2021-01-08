@@ -1,5 +1,5 @@
-//#include <cassert>
-//#include <cstdlib>
+#include <cassert>
+#include <cstdlib>
 #include <fstream>
 #include <iostream>
 #include <string>
@@ -86,7 +86,7 @@ void ip_print(const std::vector<std::vector<unsigned>>& ip_pool)
 int main(int argc, char const* argv[])
 {
     try {
-	    std::basic_string<char> file_path;
+	std::basic_string<char> file_path;
         std::vector<std::vector<unsigned>> ip_pool(0);
     	
         std::getline(std::cin, file_path);
