@@ -1,10 +1,10 @@
 cmake_minimum_required(VERSION 3.2)
 
 if($ENV{TRAVIS_BUILD_NUMBER})
-    project(helloworld VERSION 0.0.$ENV{TRAVIS_BUILD_NUMBER})
+    project(ip_sortus VERSION 0.0.$ENV{TRAVIS_BUILD_NUMBER})
     find_package(Boost COMPONENTS unit_test_framework REQUIRED)
 else()
-    project(helloworld VERSION 0.0.42)
+    project(ip_sortus VERSION 0.0.42)
     set(BOOST_ROOT "C:\\boost\\include\\boost-1_75")
     set(BOOST_LIBRARYDIR "C:\\boost\\lib")
 endif()
