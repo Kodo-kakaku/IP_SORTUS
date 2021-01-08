@@ -1,3 +1,3 @@
 # IP_SORTUS
 
-For OTUS form SORTUS!
+For OTUS from SORTUS!
